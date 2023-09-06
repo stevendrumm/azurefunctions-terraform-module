@@ -3,7 +3,7 @@ output "storage_account_name" {
   value = azurerm_storage_account.storage.name
 }
 output "app_function_name" {
-  description = "Name of the Azure Sotrage Account"
+  description = "Name of the Azure Function App"
   value = azurerm_function_app.azure_function.name
 }
 output "storage_account_primary_access_key" {
